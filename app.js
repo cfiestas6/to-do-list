@@ -11,10 +11,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-carlos:admin@cluster0.9epfk.mongodb.net/cluster0");
+mongoose.connect("");
 
-
-//
 const itemsSchema = {
   name: String
 }
